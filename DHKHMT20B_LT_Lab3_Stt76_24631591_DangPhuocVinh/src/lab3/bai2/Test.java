@@ -12,7 +12,7 @@ public class Test {
         CoSoVatChat[] ds = new CoSoVatChat[3];
         ds[0] = new Ban("B01", ChatLieu.GO, KichCo.LON, 4, 2.0, 1.0);
         ds[1] = new Ghe("G01", ChatLieu.KIMLOAI, KichCo.VUA, 4, true);
-        ds[2] = new Ghe("G02", ChatLieu.NHUA, KichCo.NHO, 3, false);
+        ds[2] = new Ghe("G02", ChatLieu.NHUA, KichCo.NHO, 3, true);
         System.out.printf("%15s |%15s |%15s |%15s |%11s\n",
                 "Mã", "Chất liệu", "Kích cỡ", "Số chân", "Cân nặng");
         System.out.println("--------------------------------------------------------------------------------");
